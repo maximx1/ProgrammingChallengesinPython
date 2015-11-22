@@ -3,12 +3,11 @@ __author__ = 'Pedro'
 class AgeinSec():
 
     def ageToSeconds(self, age):
-        months = 12
-        days = 30
+        yeardays = 365
         hours = 24
         minutes = 60
         seconds = 60
-        newage = (age * months * days * hours * minutes * seconds)
+        newage = (age * yeardays * hours * minutes * seconds)
         print ('Voce viveu : ' + str(newage) + ' segundos ate o momento')
         return newage
 
